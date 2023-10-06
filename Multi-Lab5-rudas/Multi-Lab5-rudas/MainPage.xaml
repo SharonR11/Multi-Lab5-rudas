@@ -4,25 +4,27 @@
              x:Class="Multi_Lab5_rudas.MainPage">
 
     <StackLayout>
-        <DatePicker x:Name="dtPrueba" />
 
-        <Label Text="Yo soy un label" 
-               FontSize="Large"
-               BackgroundColor="Crimson"
-               TextColor="White"/>
-        
-        <Entry></Entry>
-        
-        <Editor HeightRequest="200"></Editor>
+        <StackLayout>
+            <Button x:Name="Item3" Text="DataPicker"></Button>
+            <Button x:Name="Item14" Text="ListviewSource"></Button>
+        </StackLayout>
 
-        <Image Source="boy.jpg"/>
-
+        <StackLayout Orientation="Horizontal">
+            <StackLayout>
+                <Button x:Name="Item1"  Text="ButtonDemo"/>
+                <Button x:Name="Item2"  Text="ButtonCode"/>
+                <Button x:Name="Item4"  Text="EditorDemo"/>
+                <Button x:Name="Item5"  Text="EditorCode"/>
+                <Button x:Name="Item6"  Text="EntryDemo"></Button>
+                <Button x:Name="Item7"  Text="EntryCode"></Button>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="Item8"  Text="LabelDemo"></Button>
+                <Button x:Name="Item9"  Text="LabelCode"></Button>
+                <Button x:Name="Item10"  Text="LocalImage"></Button>
+                <Button x:Name="Item11"  Text="EmbeddedImage"></Button>
+            </StackLayout>
+        </StackLayout>
     </StackLayout>
-    
-    <!--<DatePicker MaximumDate="2023-10-06" 
-                    MinimumDate="2023-09-01"
-                    x:Name="dtPrueba">
-        --><!--dddd--><!--
-
-    </DatePicker>-->
 </ContentPage>
