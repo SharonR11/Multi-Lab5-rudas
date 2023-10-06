@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Multi_Lab5_rudas.MainPage">
+
+    <StackLayout>
+        <DatePicker x:Name="dtPrueba" />
+
+        <Label Text="Yo soy un label" 
+               FontSize="Large"
+               BackgroundColor="Crimson"
+               TextColor="White"/>
+        
+        <Entry></Entry>
+        
+        <Editor HeightRequest="200"></Editor>
+
+        <Image Source="boy.jpg"/>
+
+    </StackLayout>
+    
+    <!--<DatePicker MaximumDate="2023-10-06" 
+                    MinimumDate="2023-09-01"
+                    x:Name="dtPrueba">
+        --><!--dddd--><!--
+
+    </DatePicker>-->
+</ContentPage>
